@@ -22,5 +22,7 @@
     "husky": "^9.1.7",
     "prettier": "^3.9.6",
     "vitest": "^4.1.11"
-  }
+  },
+  "author": "",
+  "license": "ISC"
 }

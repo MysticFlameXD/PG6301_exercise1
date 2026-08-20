@@ -1,7 +1,8 @@
 import { test, expect } from "vitest";
 
 function romanNumerals(number) {
-  return "I";
+  if (number === 1) return "I";
+  if (number === 2) return "II";
 }
 
 test("1 in roman numerals is I", () => {
@@ -9,4 +10,7 @@ test("1 in roman numerals is I", () => {
 });
 test("2 in roman numerals is II", () => {
   expect(romanNumerals(2)).toBe("II");
+});
+test("3 in roman numerals is III", () => {
+  expect(romanNumerals(2)).toBe("III");
 });
