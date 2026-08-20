@@ -1,0 +1,26 @@
+{
+  "name": "exercise1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "prettier --check .",
+    "prepare": "husky",
+    "test:watch": "vitest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MysticFlameXD/PG6301_exercise1.git"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/MysticFlameXD/PG6301_exercise1/issues"
+  },
+  "homepage": "https://github.com/MysticFlameXD/PG6301_exercise1#readme",
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "prettier": "^3.9.6",
+    "vitest": "^4.1.11"
+  }
+}
